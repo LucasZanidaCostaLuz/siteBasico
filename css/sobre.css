@@ -1,0 +1,103 @@
+
+body{
+    padding: 0%;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(255, 245, 233);
+    background-image: url(./imagens/bloons-td-6-1nk8r.png);
+}
+
+header{
+    width: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 100px;
+    background-color: rgba(34, 33, 33, 0.521);
+    color: rgb(240, 248, 255);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.link{
+    width: 300px;
+    line-height: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+img{
+    width: 154.5px;
+    height: 88.6875px;
+}
+
+a{
+    font-size: 25px;
+    font-family: "Luckiest Guy";
+    text-decoration: none;
+    color: aliceblue;
+}
+
+a:hover{
+    transform: scale(1.2);
+    -webkit-text-stroke-color: rgb(255, 146, 21);
+    -webkit-text-stroke-width: 1px;
+}
+
+h1{
+    font-family: "Luckiest Guy";
+    color: aliceblue;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 1px;
+}
+
+.titulo{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 300px;
+}
+
+#bloons{
+    font-family: "Luckiest Guy";
+    color: aqua;
+    text-decoration: none;
+}
+
+#TD6{
+    font-family: "Luckiest Guy";
+    color: darkorange;
+    text-decoration: none;
+}
+
+p{
+    font-family: "Luckiest Guy";
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+#texto{
+    width: 600px;
+    height: auto;
+    border-radius: 30px;
+    background-color: rgba(240, 248, 255, 0.514);
+}
+
+#corpo_do_site{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    height: 900px;
+    width: 800px;
+    background-color: rgba(13, 25, 51, 0.651);
+    border-radius: 30px;
+}
