@@ -9,8 +9,8 @@ body{
     justify-content: center;
     background-color: rgb(255, 245, 233);
     background-image: url(./imagens/HD-wallpaper-video-game-bloons-td-6.jpg);
-    background-position: center;
     background-size: cover;
+    background-attachment: fixed;
 }
 header{
     width: 100%;

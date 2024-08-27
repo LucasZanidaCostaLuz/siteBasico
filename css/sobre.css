@@ -7,8 +7,12 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: rgb(255, 245, 233);
+    background-color: rgb(158, 248, 241);
     background-image: url(./imagens/bloons-td-6-1nk8r.png);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
 }
 
 header{

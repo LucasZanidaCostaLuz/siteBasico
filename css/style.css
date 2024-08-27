@@ -9,7 +9,7 @@ body{
     justify-content: center;
     background-color: rgb(255, 245, 233);
     background-image: url(./imagens/thumb-1920-1206431.jpg);
-    background-position: center;
+    background-attachment: fixed;
     font-family: "Luckiest Guy";
 }   
 
@@ -103,7 +103,7 @@ p{
     display: flex;
     flex-direction: column;
     margin-top: 30px;
-    height: 900px;
+    height: auto;
     width: 800px;
     background-color: rgba(13, 25, 51, 0.651);
     border-radius: 30px;
